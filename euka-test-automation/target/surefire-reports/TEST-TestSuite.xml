@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="11.938" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="isHeadless" value="false"/>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="/Users/kaveeshgamage/Downloads/euka-test-automation/target/test-classes:/Users/kaveeshgamage/Downloads/euka-test-automation/target/classes:/Users/kaveeshgamage/.m2/repository/com/microsoft/playwright/playwright/1.44.0/playwright-1.44.0.jar:/Users/kaveeshgamage/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/kaveeshgamage/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/kaveeshgamage/.m2/repository/com/microsoft/playwright/driver/1.44.0/driver-1.44.0.jar:/Users/kaveeshgamage/.m2/repository/com/microsoft/playwright/driver-bundle/1.44.0/driver-bundle-1.44.0.jar:/Users/kaveeshgamage/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/kaveeshgamage/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/kaveeshgamage/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/kaveeshgamage/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/kaveeshgamage/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/kaveeshgamage/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/kaveeshgamage/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/kaveeshgamage/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/kaveeshgamage/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/kaveeshgamage/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Colombo"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="LK"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/22.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/kaveeshgamage/Downloads/euka-test-automation/target/surefire/surefirebooter1512445569230379789.jar /Users/kaveeshgamage/Downloads/euka-test-automation/target/surefire 2024-06-30T14-21-30_602-jvmRun1 surefire476099151809970192tmp surefire_04733053724776858398tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/kaveeshgamage/Downloads/euka-test-automation/target/test-classes:/Users/kaveeshgamage/Downloads/euka-test-automation/target/classes:/Users/kaveeshgamage/.m2/repository/com/microsoft/playwright/playwright/1.44.0/playwright-1.44.0.jar:/Users/kaveeshgamage/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/kaveeshgamage/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/kaveeshgamage/.m2/repository/com/microsoft/playwright/driver/1.44.0/driver-1.44.0.jar:/Users/kaveeshgamage/.m2/repository/com/microsoft/playwright/driver-bundle/1.44.0/driver-bundle-1.44.0.jar:/Users/kaveeshgamage/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/kaveeshgamage/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/kaveeshgamage/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/kaveeshgamage/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/kaveeshgamage/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/kaveeshgamage/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/kaveeshgamage/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/kaveeshgamage/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/kaveeshgamage/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/kaveeshgamage/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/kaveeshgamage"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/22.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/kaveeshgamage/Downloads/euka-test-automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/kaveeshgamage/Downloads/euka-test-automation/target/surefire/surefirebooter1512445569230379789.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="22.0.1"/>
+    <property name="user.name" value="kaveeshgamage"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.4.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/kaveeshgamage/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/fk/367ysfpj7tdg455m_5h4pd3m0000gn/T/"/>
+    <property name="java.version" value="22.0.1"/>
+    <property name="user.dir" value="/Users/kaveeshgamage/Downloads/euka-test-automation"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/kaveeshgamage/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="22.0.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="studentEnrollmentTest" classname="com.euka.tests.TC01_StudentEnrollmentTest" time="3.406">
+    <system-out><![CDATA[...
+... TestNG 7.10.2 by Cédric Beust (cedric@beust.com)
+...
+
+<<<<<<   Test Suite started!  >>>>>>>>>>>
+<<<<<<   studentEnrollmentTest Started!!  >>>>>>>>>>>
+<<< Rating popup is not visible >>>
+<<<<<<   studentEnrollmentTest Passed!!  >>>>>>>>>>>
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,10 @@
+com/euka/pages/ManageProgramsPage.class
+com/euka/utils/PropertyFileReader.class
+com/euka/pages/BasePage.class
+com/euka/pages/TermSelectionPage.class
+com/euka/pages/GradeSelectionPage.class
+com/euka/pages/EnrolmentConfirmationPage.class
+com/euka/pages/LoginPage.class
+com/euka/pages/LandingPage.class
+com/euka/pages/ProgressPage.class
+com/euka/pages/NameSelectionPage.class
