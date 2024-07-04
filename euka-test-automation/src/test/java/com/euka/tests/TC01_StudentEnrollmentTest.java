@@ -67,7 +67,7 @@ public class TC01_StudentEnrollmentTest {
         Assert.assertTrue(landingPage.verifyWelcomeText(), "<<< Log in failed >>>");
     }
 
-    @Test(priority = 1)
+    @Test(priority = 1)//xxx  sdf
     public void studentEnrollmentTest() {
         //Click Manage Programs
         landingPage.clickManagePrograms();
